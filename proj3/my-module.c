@@ -28,7 +28,7 @@ static int __init hello_init(void)
 
 static void __exit hello_cleanup(void)
 {
-    printk(KERN_INFO "UNLOADING my-module, which was wirrten by Christyn Phillippi\n");
+    printk(KERN_INFO "UNLOADING my-module, which was written by Christyn Phillippi\n");
 }
 
 module_init(hello_init);
